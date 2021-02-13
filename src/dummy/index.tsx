@@ -1,5 +1,5 @@
 //randomize opacity
-function random_rgba() {
+function random_rgba(): string {
   let r = Math.random;
   return r().toFixed(1);
 }
