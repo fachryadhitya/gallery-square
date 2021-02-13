@@ -4,6 +4,7 @@ import Box from "./components/Box";
 import { colorObjj } from "./dummy";
 
 function App() {
+  //just using one state so I'm  not overusing the useState React
   const [show, setShow] = useState(colorObjj);
 
   //show matching color, in this case, i choose red
